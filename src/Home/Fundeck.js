@@ -43,6 +43,11 @@ const Fundeck = () => {
             <div>
                 <MenuInvestors/>
 
+                <h2 className="title-ai m-b-10">
+                    Fundeck.IA <br/>
+                    <span className="violet-color m-b-10">Fonctionnalité en cours de développement<br/></span>
+                </h2>
+
                 <h2 className="title-ai">
                     Fundeck.IA <br/>
                     <span className="violet-color">L'intelligence artificielle qui t'aide à lever des fonds<br/></span>

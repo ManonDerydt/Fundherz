@@ -3,7 +3,6 @@ import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Fade from "react-reveal/Fade";
-import smallLogo from "./assets/small-logo.png";
 import {FaChevronRight} from "react-icons/fa";
 
 function Subscribe() {
@@ -64,7 +63,6 @@ function Subscribe() {
                 <ToastContainer />
                 <Fade bottom delay={200}>
                     <div className="text-center">
-                        <img src={smallLogo} className="small-logo logo-s"/>
                     </div>
                     <div className>
                         <h2 className="title-subscribe">On s'inscrit ?<br /><span className="color-orange">Tout d'abord, faisons connaissance !</span></h2>

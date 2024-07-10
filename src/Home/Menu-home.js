@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import logo from "../assets/logo-3.png";
 import { Link, withRouter } from 'react-router-dom';
 import Hamburger from 'hamburger-react';
 import menu from "../assets/menu.png";
@@ -41,7 +40,6 @@ const MenuConsultant = ({ location }) => {
         <div>
             <div className="mobile-only">
                 <div className="content-menu-mobile">
-                    <img src={logo} className="logo"/>
                     <div className={`menu-burger ${isScrolled ? 'scrolled' : ''}`}>
                         <Hamburger toggled={isMenuOpen} toggle={toggleMenu} className="menu-burger" />
                     </div>

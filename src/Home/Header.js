@@ -100,7 +100,7 @@ class Header extends React.Component {
                     <Constat/>
                     <BannerC/>
                     <Financement/>
-                    <Offers/>
+                    {/*<Offers/>*/}
 
                     <Expert/>
                     <Step/>

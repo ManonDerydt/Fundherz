@@ -10,6 +10,16 @@ root.render(
   </React.StrictMode>
 );
 
+const container = document.getElementById('root');
+if (container) {
+    const root = ReactDOM.createRoot(container);
+    root.render(<App />);
+    console.log("TEST")
+    console.log("TEST")
+} else {
+    console.error("Le conteneur DOM 'root' est introuvable.");
+}
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
