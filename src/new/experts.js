@@ -52,49 +52,11 @@ const AutoScrollSlider = () => {
                         </Box>
 
                         <Typography variant="body2" color="black">
-                            Co-founder & Ceo
+                            Fundherz
                         </Typography>
                     </CardContent>
                 </Card>
-                {/*<Card className="card" sx={{ borderRadius: 3 }}>*/}
-                {/*    <CardMedia*/}
-                {/*        component="img"*/}
-                {/*        alt="Ivan"*/}
-                {/*        className="cardmedia"*/}
-                {/*        image={require("../assets/new-web/experts/ivb.png")}*/}
-                {/*    />*/}
-                {/*    <CardContent>*/}
-                {/*        <Box>*/}
-                {/*            <Typography gutterBottom variant="h3" component="div" className="title-card">*/}
-                {/*                Ivan Boole*/}
-                {/*            </Typography>*/}
-                {/*        </Box>*/}
 
-                {/*        <Typography variant="body2" color="black">*/}
-                {/*            Co-founder & Coo*/}
-                {/*        </Typography>*/}
-                {/*    </CardContent>*/}
-                {/*</Card>*/}
-
-                <Card className="card" sx={{ borderRadius: 3 }}>
-                    <CardMedia
-                        component="img"
-                        alt="Hugo"
-                        className="cardmedia"
-                        image={require("../assets/new-web/experts/hugo.jpeg")}
-                    />
-                    <CardContent>
-                        <Box>
-                            <Typography gutterBottom variant="h3" component="div" className="title-card">
-                                Hugo Le Belzic
-                            </Typography>
-                        </Box>
-
-                        <Typography variant="body2" color="black">
-                            Expert en IA
-                        </Typography>
-                    </CardContent>
-                </Card>
                 <Card className="card" sx={{ borderRadius: 3 }}>
                     <CardMedia
                         className="cardmedia"
@@ -111,45 +73,7 @@ const AutoScrollSlider = () => {
                         </Box>
 
                         <Typography variant="body2" color="black">
-                            Personal Branding
-                        </Typography>
-                    </CardContent>
-                </Card>
-                <Card className="card" sx={{ borderRadius: 3 }}>
-                    <CardMedia
-                        component="img"
-                        alt="Elie"
-                        className="cardmedia"
-                        image={require("../assets/new-web/experts/elie.jpeg")}
-                    />
-                    <CardContent>
-                        <Box>
-                            <Typography gutterBottom variant="h3" component="div" className="title-card">
-                                Elie Zemmour
-                            </Typography>
-                        </Box>
-
-                        <Typography variant="body2" color="black">
-                            Expert Business
-                        </Typography>
-                    </CardContent>
-                </Card>
-                <Card className="card" sx={{ borderRadius: 3 }}>
-                    <CardMedia
-                        component="img"
-                        alt="Jean-corentin"
-                        className="cardmedia"
-                        image={require("../assets/jc.png")}
-                    />
-                    <CardContent>
-                        <Box>
-                            <Typography gutterBottom variant="h3" component="div" className="title-card">
-                                Jean-Corentin
-                            </Typography>
-                        </Box>
-
-                        <Typography variant="body2" color="black">
-                            Expert Pitch
+                            Dean Artist - Dean Agency
                         </Typography>
                     </CardContent>
                 </Card>
@@ -169,45 +93,47 @@ const AutoScrollSlider = () => {
                         </Box>
 
                         <Typography variant="body2" color="black">
-                            Mindset & motivation
+                            Timehers
                         </Typography>
                     </CardContent>
                 </Card>
                 <Card className="card" sx={{ borderRadius: 3 }}>
                     <CardMedia
                         component="img"
-                        alt="Ivan"
+                        alt="Jade"
                         className="cardmedia"
-                        image={require("../assets/new-web/experts/cedric.jpeg")}
+                        margin-left="20"
+                        image={require("../assets/new-web/experts/jade.jpeg")}
                     />
                     <CardContent>
                         <Box>
                             <Typography gutterBottom variant="h3" component="div" className="title-card">
-                                Cédric Fradin
+                                Jade Dumortier
                             </Typography>
                         </Box>
 
                         <Typography variant="body2" color="black">
-                            Expert Financier
+                            Jadice
                         </Typography>
                     </CardContent>
                 </Card>
                 <Card className="card" sx={{ borderRadius: 3 }}>
                     <CardMedia
                         component="img"
-                        alt="Ismaëla"
+                        alt="Anastasia"
                         className="cardmedia"
-                        image={require("../assets/new-web/experts/Ismaela.jpeg")}
+                        margin-left="20"
+                        image={require("../assets/new-web/experts/anastasia-andrieu.jpg")}
                     />
                     <CardContent>
                         <Box>
                             <Typography gutterBottom variant="h3" component="div" className="title-card">
-                                Ismaëla Ganessi
+                                Anastasia Andrieu
                             </Typography>
                         </Box>
 
                         <Typography variant="body2" color="black">
-                            Expert Financement
+                            Label Phi
                         </Typography>
                     </CardContent>
                 </Card>
@@ -244,21 +170,19 @@ const Expert = () => {
         <div className="d-flex-desktop content-expert-global">
             <Fade bottom>
                 <div className="content-expert">
-                    <h2 className="title-expert">L'équipe d'experts <br/><span
-                        className="white-color">derrière Fundherz</span></h2>
+                    <h2 className="white-color title-expert white-color">L'équipe d'experts <br/><span
+                        className="rainbow-color">derrière Fundherz</span></h2>
                     <p className="text-step">
-                        Des professionnels expérimentés de chaque secteur accompagnent Les Fundherz dans cette aventure.
-                        Soyez sereines, vous êtes entre de bonnes mains.
+                        Lancez-vous comme tant d’autres entrepreneuses et concrétisez vos ambitions.
                     </p>
-                    <button className="btn-banner-join-expert d-flex-desktop" onClick={handleButtonClick}>
-                        <img src={volt} className="volt"/>
-                        <p>Je dépose mon deck</p>
+                    <button className="btn-banner-join-expert text-btn-header d-flex-desktop" onClick={handleButtonClick}>
+                        <p>Je veux lever des fonds</p>
                     </button>
                 </div>
             </Fade>
 
             <div className="d-flex-desktop Content-box">
-                <AutoScrollSlider/> {/* Utilisation de la fonction AutoScrollSlider */}
+                <AutoScrollSlider/>
             </div>
             {showIframe && (
                 <Fade right>

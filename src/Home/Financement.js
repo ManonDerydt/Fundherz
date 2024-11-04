@@ -28,21 +28,17 @@ const Financement = () => {
                 </Fade>
             </div>
             <div>
-                <h2 className="color-black text-center title-financement">Nous trouvons <br /><span
-                    className="violet-color">vos financements</span></h2>
+                <h2 className="color-black text-center title-financement">Le bon financement <br /><span
+                    className="violet-color">au bon moment.</span></h2>
                 <div className="text-financement color-black">
-                    À la suite du parcours, nous vous aidons à trouver vos financements,
-                    qu'ils proviennent de subventions publiques, prêts bancaires, business
-                    angels ou de fonds de capital-risque. Notre objectif est de vous permettre de lever entre
-                    50k et 500k€ et de propulser votre projet.
+                    Nous vous aidons à obtenir les bons financements au bon moment, en dilutif comme en non dilutif ( subventions, prêts bancaires, business angels ou VC) pour lever entre 50k à 2M d'€ en phase de pre seed et seed.
                 </div>
 
                 <button
                     className="link-btn-menu btn-com-f d-flex-desktop"
                     onClick={handleButtonClick}
                 >
-                    <img src={volt} className="volt" />
-                    <p>Je dépose mon deck</p>
+                    <p className="white-color text-btn-header">Je veux lever des fonds</p>
                 </button>
             </div>
             <div className="content-icons-f content-icons-f-mobile-2">

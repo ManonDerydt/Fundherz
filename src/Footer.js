@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../src/assets/white-logo.png'
-import smallLogo from '../src/assets/new-web/logo-bold.png'
+import smallLogo from '../src/assets/F (2).png';
 import {FaInstagram} from "react-icons/fa";
 import { Link } from 'react-scroll';
 import {BsFacebook, BsInstagram, BsLinkedin} from "react-icons/bs";
