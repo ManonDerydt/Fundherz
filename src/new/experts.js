@@ -170,8 +170,8 @@ const Expert = () => {
         <div className="d-flex-desktop content-expert-global">
             <Fade bottom>
                 <div className="content-expert">
-                    <h2 className="white-color title-expert white-color">L'équipe d'experts <br/><span
-                        className="rainbow-color">derrière Fundherz</span></h2>
+                    <h2 className="white-color title-expert white-color">Faites partie de<br/><span
+                        className="rainbow-color">la team Fundherz</span></h2>
                     <p className="text-step">
                         Lancez-vous comme tant d’autres entrepreneuses et concrétisez vos ambitions.
                     </p>
@@ -190,7 +190,7 @@ const Expert = () => {
                         <div className="typeform-container">
                             <iframe
                                 id="typeform-iframe"
-                                src="https://i59ic371bmw.typeform.com/to/JiN0MSYj"
+                                src="https://i59ic371bmw.typeform.com/to/s7B7i5Vw"
                                 style={{ width: '100%', height: '100%', border: 'none' }}
                                 title="TypeForm"
                             />

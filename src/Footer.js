@@ -25,7 +25,6 @@ class Footer extends React.Component {
                             <p className="underline">En savoir plus</p>
                             <ul className="block-menu-footer">
                                 <li><a className="lif" href="/">Fundherz</a></li>
-                                <li><a className="lif" href="/fundeck">Fundeck.ai</a></li>
                             </ul>
                         </div>
 

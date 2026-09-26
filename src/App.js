@@ -21,12 +21,12 @@ import LegalNotice from "./Legal/legalNotice";
 import WaitingPage from "./WaitingPage";
 import New from "./new/new"
 import Fundeck from "./Home/Fundeck";
+import Financement from "./Home/Financement";
 
 function SectionFundeck() {
     const location = useLocation();
 
     if (location.pathname === '/fundeck') {
-
         return <Fundeck />;
     }
 
@@ -88,6 +88,10 @@ function App() {
                     <Switch>
                         <Route exact path="/fundeck" component={SectionFundeck} />
                         <Route exact path="/" component={Header} />
+                        <Switch>
+                            <Route exact path="/" component={Header} />
+                            <Route path="/financement" component={Financement} />
+                        </Switch>
                         {/*<Route render={() => <Redirect to="/home" />} />*/}
                     </Switch>
                 </BrowserRouter>

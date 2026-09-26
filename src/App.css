@@ -17,6 +17,19 @@ body{
     font-size: 16px;
 }
 
+.content-header,
+.content-carousel,
+.slogan,
+.financement,
+.timeline,
+.expert,
+.step,
+.footer {
+    margin-bottom: 40px; /* Ajustez cette valeur selon vos besoins */
+    position: relative;
+    z-index: 0; /* Assurez-vous que ces sections sont en dessous */
+}
+
 @font-face {
     font-family: 'Glacial Indifference';
     src: url("../GlacialIndifference-Regular.otf") format('truetype');
@@ -174,45 +187,50 @@ body{
     width: 100%;
     background-color: #dcb7fb;
     transition: 0.3s;
+    font-family: 'Glacial Indifference';
+}
+
+.btn-investor:hover{
+color: #dcb7fb;
 }
 
 .small-title-offers{
-    color: #b6bcc3;
-    line-height: 15px;
+color: #b6bcc3;
+line-height: 15px;
 }
 .section{
-    height: 100vh;
+height: 100vh;
 }
 .justify-content-between{
-    justify-content: space-between !important;
+justify-content: space-between !important;
 }
 
 .btn{
-    background: none;
+background: none;
 }
 
 .btn:hover{
-    background: none;
+background: none;
 }
 
 .btn-menu-subscribe-h{
-    background: #FFCD3B;
-    height: clamp(0.5rem,3.5vw,4rem);
-    font-size: clamp(0rem,1.1vw,1.2rem);
-    border-radius: 4em;
-    color: #271350;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    width: 120%;
+background: #FFCD3B;
+height: clamp(0.5rem,3.5vw,4rem);
+font-size: clamp(0rem,1.1vw,1.2rem);
+border-radius: 4em;
+color: #271350;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+width: 120%;
 }
 
 .btn-menu-subscribe-i{
-    background: none;
-    height: clamp(0.5rem, 3vw, 4rem);
-    font-size: 20px;
-    border-radius: 4em;
-    color: #271350;
-    /* font-family: 'Montserrat', sans-serif; */
+background: none;
+height: clamp(0.5rem, 3vw, 4rem);
+font-size: 20px;
+border-radius: 4em;
+color: #271350;
+/* font-family: 'Montserrat', sans-serif; */
     font-weight: 600;
     /* padding-left: 50%; */
     font-family: 'Glacial Indifference';
@@ -296,7 +314,7 @@ button:active {
 }
 
 .btn-com-f:hover{
-    background: #271350;
+    background: #violet;
 }
 
 .fade {
@@ -1329,106 +1347,120 @@ button.learn-more:active::before {
     font-weight: 400;
     font-size: 22px;
     font-weight: 500;
+    font-family: 'Glacial Indifference';
+}
+
+.btn-com-f:hover{
+    background-color: #dcb7fb;
 }
 
 .border-icons-f{
-    font-size: 30px;
-    border-radius: 60%;
-    box-shadow: 0 0 10px rgba(231, 195, 247, 0.8);
-    margin-bottom: 70%;
-    padding: 15px 20px 15px 20px !important;
+font-size: 30px;
+border-radius: 60%;
+box-shadow: 0 0 10px rgba(231, 195, 247, 0.8);
+margin-bottom: 70%;
+padding: 15px 20px 15px 20px !important;
+}
+
+.btn-boss{
+color: #dcb7fb;
+}
+
+.btn-boss:hover {
+background-color: #dcb7fb;
+color: #271350;
 }
 
 .content-icons-f{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+margin-top: 10%;
 }
 
 .text-financement{
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 5%;
-    text-align: center;
-    font-family: 'Glacial Indifference';
-    font-size: 22px;
-    line-height: 30px;
+width: 90%;
+margin: 0 auto;
+margin-top: 5%;
+text-align: center;
+font-family: 'Glacial Indifference';
+font-size: 22px;
+line-height: 30px;
 }
 
 .content-items{
-    margin: 0 auto;
-    justify-content: space-between;
-    width: 90%;
+margin: 0 auto;
+justify-content: space-between;
+width: 90%;
 }
 
 .content-join{
-    height: 25em;
-    background: #9A41FF;
-    width: 100%;
-    margin-top: 10%;
+height: 25em;
+background: #9A41FF;
+width: 100%;
+margin-top: 10%;
 }
 
 .title-wework{
-    margin-top: -13%;
-    color: white;
-    font-size: 2em;
-    text-align: left;
-    margin-left: 25%;
-    width: 25%;
+margin-top: -13%;
+color: white;
+font-size: 2em;
+text-align: left;
+margin-left: 25%;
+width: 25%;
 }
 
 .item{
-    width: 30%;
-    margin-top: 5%;
+width: 30%;
+margin-top: 5%;
 }
 
 .content-subscribe{
-    margin: 0 auto;
-    padding: 5em;
-    border-radius: 1.85em;
-    margin-top: 5%;
-    padding-top: 0;
-    margin-bottom: 2%;
+margin: 0 auto;
+padding: 5em;
+border-radius: 1.85em;
+margin-top: 5%;
+padding-top: 0;
+margin-bottom: 2%;
 }
 
 .title-subscribe{
-    color: #271350;
-    font-weight: 800;
-    text-align: center;
-    padding-top: 0px;
-    letter-spacing: 3px;
-    font-size: clamp(1rem,2vw,3rem);
+color: #271350;
+font-weight: 800;
+text-align: center;
+padding-top: 0px;
+letter-spacing: 3px;
+font-size: clamp(1rem,2vw,3rem);
 }
 
 .title-hidden{
-    font-family: 'Fuggles', cursive;
-    color: #FFE599;
-    font-size: 15em;
-    z-index: -4;
-    position: sticky;
-    text-align: center;
-    margin-top: 15%;
-    margin-bottom: -25%;
-    padding-top: 0%;
+font-family: 'Fuggles', cursive;
+color: #FFE599;
+font-size: 15em;
+z-index: -4;
+position: sticky;
+text-align: center;
+margin-top: 15%;
+margin-bottom: -25%;
+padding-top: 0%;
 }
 
 .input{
-    width: 80%;
-    margin-left: 10%;
-    height: 3em;
-    border-radius: 1em;
-    border: 2px solid black;
+width: 80%;
+margin-left: 10%;
+height: 3em;
+border-radius: 1em;
+border: 2px solid black;
 }
 
 .text-form{
-    width: 55%;
-    font-size: 1.3em;
-    text-align: center;
-    letter-spacing: 1px;
-    font-weight: 100;
-    margin: 0 auto;
+width: 55%;
+font-size: 1.3em;
+text-align: center;
+letter-spacing: 1px;
+font-weight: 100;
+margin: 0 auto;
 }
 
 /**************************Solution*************************/
@@ -1967,9 +1999,9 @@ button.learn-more:active::before {
     width: 100%;
     background: #271350;
     margin-top: 10%;
-    padding-bottom: 3%;
     bottom: 0;
     padding-top: 1%;
+    margin-bottom: 0;
 }
 
 
@@ -2626,7 +2658,7 @@ a{
 
 .content-menu-desktop{
     justify-content: space-between;
-    max-width: 20%;
+    max-width: 30%;
     margin-top: 3%;
     align-items: center;
 }
@@ -2634,9 +2666,28 @@ a{
 .menu-li{
     background: none;
     color: white;
-    font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'Glacial Indifference';
+}
+
+.btn-discover:hover{
+    color: #271350;
+    background: none;
+}
+
+.btn-darkblue:hover{
+     color: #271350 !important;
+     background: #dcb7fb;
+}
+
+.btn-darkblue-text:hover{
+    color: #271350!important;
+}
+
+.get-money-btn{
+    background: white;
+    padding: 1em;
+    border-radius: 4em;
 }
 
 
@@ -2955,7 +3006,7 @@ a{
     margin: 0 auto;
     border-radius: 20px;
     padding: 5% 0 7% 0;
-    margin-top: 5%;
+    margin-top: 10%;
     justify-content: space-between;
     padding-left: 2%;
     padding-right: 2%;
@@ -3130,7 +3181,7 @@ a{
     box-shadow: 0 0 10px rgb(0 0 0 / 50%);
     align-content: center;
     padding-bottom: 10%;
-    padding-top: 15% !important;
+    padding-top: 10% !important;
 }
 
 .mobile-menu.show-menu {
@@ -3169,7 +3220,7 @@ a{
 }
 
 .lif:hover{
-    color: #9A41FF;
+    color: #d7c0ff;
 }
 
 .content-block{
@@ -3339,8 +3390,9 @@ color: #271350;
 }
 
 .btn-banner-join-expert:hover{
-background: #d7c0ff;;
-color: #9A41FF;
+    background: #271350;
+    color: #dcb7fb;
+    border: 2px solid #dcb7fb;
 }
 
 
@@ -3402,8 +3454,8 @@ margin-top: 5% !important;
 .content-icons-footer{
 justify-content: space-between;
 text-align: left;
-width: 8%;
-font-size: 20px;
+width: 6%;
+font-size: 22px;
 margin-left: 10%;
 }
 
@@ -3473,7 +3525,7 @@ border: 2px solid #3AD418;
     background: #271350;
     color: white;
     align-items: center;
-    width: 60%;
+    width: 50%;
     font-weight: 500;
     justify-content: center;
     border-radius: 4em;
@@ -3482,6 +3534,11 @@ border: 2px solid #3AD418;
     margin-top: 8%;
     font-family: 'Glacial Indifference';
     font-size: 22px;
+}
+
+.btn-com-2:hover{
+    background: #dcb7fb;
+    color: #271350;
 }
 
 .btn-com-f{
@@ -3568,15 +3625,30 @@ font-size: 25px;
     }
 
     .timeline-text.left {
-        left: calc(0% - 120px) !important;
+        left: calc(0% - 135px) !important;
         text-align: center !important;
-        margin-top: 25%;
+        font-size: 18px;
+    }
+
+    .text-financement{
+        font-size: 18px;
+    }
+
+    .seven{
+        font-size: 55px;
+    }
+
+    .txt-slogan{
+        margin-bottom: 15%;
+        font-size: 18px;
+        width: 80%;
+        text-align: center;
     }
 
     .timeline-text.right {
-        left: calc(-750% + 30px) !important;
+        left: calc(-750% + 90px) !important;
         text-align: center !important;
-        margin-top: 25%;
+        font-size: 18px;
     }
 
     .number-line{
@@ -3595,11 +3667,11 @@ font-size: 25px;
     .btn-banner-join-expert{
         border-radius: 8em;
         display: flex;
-        font-size: 1em;
+        font-size: 22px;
         height: 3.5em;
         margin-top: 10% !important;
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
     }
 
     .card{
@@ -3755,7 +3827,7 @@ font-size: 25px;
         grid-template-rows: auto auto;
         row-gap: 20px;
         margin-top: -30%;
-        height: 40em;
+        height: 60em;
     }
 
     .big-title{
@@ -3796,7 +3868,7 @@ font-size: 25px;
     }
 
     .subtitle-header{
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
+        font-size: 18px;
         margin-top: 10%;
         color: #271350;
         line-height: 30px;
@@ -3807,147 +3879,152 @@ font-size: 25px;
 
 .selected-button{
     width: 100% !important;
-    color: #271350;
     font-size: clamp(1.1rem,1.1vw,1.7rem);
     letter-spacing: 0px;
     align-items: center;
     display: flex;
     height: 3em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Glacial Indifference';
     font-weight: bold;
     margin-top: 10%;
     justify-content: center;
+    font-size: 18px;
+}
+
+.mix-btn{
+    font-size: 18px;
 }
 
 .logo{
-    margin-top: 2% !important;
+margin-top: 2% !important;
 }
 
 .title-carousel{
-    text-align: center;
-    margin-top: 20% !important;
-    font-size: 1.5em;
-    width: 40%;
-    color: #271350;
-    width: 90%;
-    margin: 0 auto;
+text-align: center;
+margin-top: 20% !important;
+font-size: 1.5em;
+width: 40%;
+color: #271350;
+width: 90%;
+margin: 0 auto;
 }
 
 .img-carrousel{
-    width: 20%;
-    margin-left: 5%;
+width: 20%;
+margin-left: 5%;
 }
 
 .content-carousel{
-    text-align: center;
-    margin-top: 10%;
+text-align: center;
+margin-top: 10%;
 }
 
 .title-slogan{
-    margin: 0 auto;
-    font-size: 1.1em;
-    padding: 5%;
+margin: 0 auto;
+font-size: 1.1em;
+padding: 5%;
 }
 
 .title-constat{
-    font-size: 1.8em;
-    margin-top: 10%;
-    text-align: left !important;
+font-size: 1.8em;
+margin-top: 10%;
+text-align: left !important;
 }
 
 .title-parcours{
-    font-size: 1.8em;
-    margin-top: 10%;
-    text-align: left !important;
-    margin-left: -10% !important;
+font-size: 1.8em;
+margin-top: 10%;
+text-align: left !important;
+margin-left: -10% !important;
 }
 
 .title-love{
-    font-size: 1.8em;
-    width: auto;
-    margin-left: 0;
+font-size: 1.8em;
+width: auto;
+margin-left: 0;
 }
 
 .first-love{
-    width: auto;
-    margin: 0 auto;
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
+width: auto;
+margin: 0 auto;
+text-align: center;
+padding-left: 10%;
+padding-right: 10%;
 }
 
 .btn-love{
-    font-size: 1em;
-    margin-top: 10%;
-    width: auto;
-    text-align: center;
+font-size: 1em;
+margin-top: 10%;
+width: auto;
+text-align: center;
 
 }
 
 .content-join {
-    height: 32em;
-    background: #9A41FF;
-    width: 100%;
-    margin-top: 15%;
+height: 32em;
+background: #9A41FF;
+width: 100%;
+margin-top: 15%;
 }
 
 .text-banner{
-    font-size: 1em;
-    width: 84%;
-    margin-left: 8%;
+font-size: 1em;
+width: 84%;
+margin-left: 8%;
 }
 
 .content-btn-join {
-    justify-content: space-around;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 10%;
+justify-content: space-around;
+width: 80%;
+margin-left: 10%;
+margin-top: 10%;
 }
 
 .btn-banner-join{
-    display: flex;
-    width: 100%;
-    height: 4em;
-    font-size: 1em;
-    margin: 0 auto;
+display: flex;
+width: 100%;
+height: 4em;
+font-size: 1em;
+margin: 0 auto;
 }
 
 .content-icons-footer{
-    display: flex;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 25%;
+display: flex;
+margin-top: 5%;
+margin-bottom: 5%;
+width: 25%;
+    margin-left: 15%;
 }
 
 .title-content {
-    text-align: center;
-    font-size: 2em;
-    width: 80%;
-    margin-left: 10% !important;
-    color: white;
-    padding-top: 10%;
-    font-size: 1.5em;
+text-align: center;
+font-size: 2em;
+width: 80%;
+margin-left: 10% !important;
+color: white;
+padding-top: 10%;
+font-size: 1.5em;
 }
 
 .text-constat{
-    font-size: clamp(1.1rem,1.1vw,1.7rem);
-    padding-left: 0;
+font-size: clamp(1.1rem,1.1vw,1.7rem);
+padding-left: 0;
 }
 
 .last-text-constat {
-    font-size: clamp(1.1rem,1.3vw,1rem);
-    margin-left: -10%;
+font-size: clamp(1.1rem,1.3vw,1rem);
+margin-left: -10%;
 }
 
 .content-slogan{
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .img-constat{
-    width: 100% !important;
-    display: grid;
-    margin: 0 auto;
-    height: 20em !important;
+width: 100% !important;
+display: grid;
+margin: 0 auto;
+height: 20em !important;
 }
 
 /*.slick-track {*/
@@ -3959,9 +4036,9 @@ font-size: 25px;
         height: 3.5em;
         border-radius: 8em;
         display: flex;
-        font-size: 1em;
+        font-size: 18px;
         margin-top: 10% !important;
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -3974,6 +4051,7 @@ font-size: 25px;
     .text-step{
         width: 100%;
         text-align: center;
+        font-size: 18px;
     }
 
     .img-step{
@@ -4519,7 +4597,15 @@ font-size: 25px;
     .content-icons-f{
         display: flex;
         flex-direction: row;
-        margin-top: 20%;
+        margin-top: 30%;
+    }
+
+    .timeline-container{
+        margin-top: 25% !important;
+    }
+
+    .content-menu-desktop{
+        display: none;
     }
 
     .content-icons-f-mobile-2{
@@ -4559,9 +4645,13 @@ font-size: 25px;
         display: flex;
         height: 3.5em;
         border-radius: 5em;
-        font-size: 1em;
+        font-size: 18px;
         margin-top: 10% !important;
         margin: 0 auto;
+    }
+
+    .text-btn-header{
+        font-size: 18px;
     }
 
     .content-carousel{
@@ -4569,6 +4659,7 @@ font-size: 25px;
         justify-content: space-between;
         text-align: center;
         padding: 0;
+        position: relative;
     }
 
     .button-container-investors{
@@ -4611,15 +4702,24 @@ font-size: 25px;
         justify-content: space-between;
         width: 85%;
         z-index: 2000;
-        position: relative;
         color: #271350;
         display: flex;
         align-items: center;
+        position: absolute;
     }
 
     .buttons-investors{
         text-align: center;
         margin-left: 10%;
+        width: auto;
+        color: white;
+        font-size: 18px !important;
+    }
+
+    .mix-btn{
+        width: 80% !important;
+        margin: 0 auto;
+        margin-top: 10% !important;
     }
 
     .contact{
@@ -4631,7 +4731,7 @@ font-size: 25px;
     .big-title{
         text-align: center;
         width: 100%;
-        margin-top: 0%;
+        margin-top: 50%;
     }
 
     .btn-form{
@@ -4920,11 +5020,11 @@ width: 100%;
 }
 
 .content-icons-footer {
-display: flex;
-margin-top: 2%;
-margin-bottom: 2%;
-width: 15%;
-margin-left: 12%;
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 15%;
+    margin-left: 12%;
 }
 
 .btn-banner-join{
@@ -4944,9 +5044,18 @@ flex-direction: column;
 }
 
 .btn-com-f{
-width: 40%;
+    width: 45% !important;;
 }
 
+.btn-banner-join-expert{
+    width: 60%;
+}
+
+.content-step{
+    margin: 0 auto;
+    width: auto;
+    margin-top: 10%;
+}
 .btn-com-2{
 width: 50%;
 }
@@ -5233,6 +5342,15 @@ and (orientation: portrait) {
         margin-top: -90%;
     }
 
+    .content-slogan{
+        flex-direction: column;
+    }
+
+    .Content-box {
+        width: 100%;
+        margin-top: 10%;
+    }
+
     .big-title-investors {
         padding-top: 10%;
     }
@@ -5302,13 +5420,15 @@ and (orientation: portrait) {
     }
 
     .content-carousel {
-        width: 100%;
+        width: 50%;
         text-align: center;
         height: 5em;
         padding-left: 0;
         justify-content: space-between;
         margin-top: 10%;
         margin-bottom: 10%;
+        margin-left: 5%;
+
     }
 
     .img-constat {
@@ -5414,7 +5534,22 @@ and (orientation: portrait) {
         font-size: clamp(3rem, 3.2vw, 7rem);
         line-height: 60px;
         margin: 0 auto;
-        padding-top: 20%;
+        padding-top: 35%;
+        width: 65%;
+    }
+
+    .mix-btn {
+        width: 45% !important;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    .content-slogan {
+        margin-top: 0;
+    }
+
+    .title-slogan{
+        flex-direction: column;
     }
 
     .buttons-investors{
@@ -5625,6 +5760,13 @@ and (orientation: portrait) {
 
 }
 
+@media only screen and (min-width: 834px) and (max-width: 1024px) {
+    /* Styles for iPad Pro 11" and iPad Air Portrait */
+    .content-slogan{
+        flex-direction: column;
+    }
+}
+
 
 /*TABLETTE PAYSAGE*/
 @media only screen
@@ -5635,6 +5777,11 @@ and (orientation: landscape) {
     .content-headband {
         width: 100%;
         margin-top: 35%;
+    }
+
+    .Content-box {
+        width: 100%;
+        margin-top: 10%;
     }
 
     .content-legal-notice {
