@@ -8,6 +8,7 @@ import Step from "./step";
 import Expert from "../new/experts";
 import Financement from "./Financement";
 import Timeline from "./Timeline";
+import Reequilibre from "./Reequilibre";
 import img1 from "../assets/new-web/logo-transparent/edlv.png";
 import img2 from "../assets/new-web/logo-transparent/bpi.png";
 import img3 from "../assets/new-web/logo-transparent/emlyon.png";
@@ -178,6 +179,7 @@ const Header = () => {
                 )}
 
                 <Slogan />
+                <Reequilibre onCta={handleTypeformClick} />
                 <div ref={financementRef}>
                     <Financement />
                 </div>
