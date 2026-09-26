@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import fusee from "../assets/new-web/fusée.png"
+import fusee from "../assets/new-web/fusee.png"
 import hand from "../assets/new-web/hand.png"
 import money from "../assets/new-web/money.png"
 import Fade from "react-reveal/Fade";

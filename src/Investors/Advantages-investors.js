@@ -1,6 +1,6 @@
 import React from 'react';
 import pic1 from '../assets/Investors/pic-2.png'
-import fusée from '../assets/Investors/fusée.png'
+import fusée from '../assets/Investors/fusee.png'
 import time from '../assets/Investors/time.png'
 import purse from '../assets/Investors/purse.png'
 import target from '../assets/Investors/target.png'
